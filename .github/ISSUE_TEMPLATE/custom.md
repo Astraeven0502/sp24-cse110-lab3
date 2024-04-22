@@ -7,6 +7,10 @@ assignees: Astraeven0502
 
 ---
 
-Where you find the bug/How you encounter the bug:
+### **Where you find the bug/How you encounter the bug:**
 
-How to duplicate the bug:
+
+### **How to duplicate the bug:** 
+
+
+### **Task:**
