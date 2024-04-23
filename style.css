@@ -11,8 +11,8 @@
     color: hsl(247, 60%, 49%);
 }
 #agenda{
-    color: color(from green srgb r g b / 0.9);
+    color: color(green srgb r g b / 0.9);
 }
 #intro{
-    color: color-mix(in srgb, #34c9eb 20%, rgb(136, 21, 21));
+    color: color-mix(srgb, #34c9eb 20%, rgb(136, 21, 21));
 }
