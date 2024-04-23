@@ -145,3 +145,48 @@ p{
       background-color: rgb(36, 73, 121);
     }
 }
+*{
+    color: #ffffff;
+    background-color: rgb(46, 46, 46);
+}
+a[href="https://canvas.ucsd.edu/courses/54609"]{
+    color: #E18728;
+}
+a[href="https://github.com/Astraeven0502"]{
+    color: #f14f4f;
+}
+a[href="mailto:p8lai@ucsd.edu"]{
+    color: #d1d2eb;
+}
+h1, h2{
+    font-family: "Jersey 25";
+}
+section p {
+    background-color: rgb(97, 97, 97);
+}
+
+div + section{
+    margin: 10px;
+}
+
+div ~ section{
+    margin: 20px;
+}
+
+div.grid-container{
+    margin: 50px;
+}
+
+.container:has(img){
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(65, 64, 64);
+}
+
+li{
+    background-color: #242424;
+    margin-right: 50%;
+    & strong{
+        background-color: #a11e1e;
+    }
+}
