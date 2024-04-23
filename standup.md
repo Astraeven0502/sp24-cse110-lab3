@@ -1,11 +1,8 @@
----
-name: Standup Note Template
-about: Standup Note 
-date: 'Meeting date'
-labels: 'standup notes'
-updated: ''
+## Standup Note
 
----
+| name | about | date | labels | updated |
+| :----: | :----: | :----: | :----: | :----: |
+| Standup Note Template | Standup Note | 'Meeting date' | 'recently update' |
 
 ## Attendees
 
