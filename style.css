@@ -1,0 +1,18 @@
+#date{
+    color: rgb(184, 176, 176);
+}
+#claim{
+    color: darkgray;
+}
+.menu{
+    color: #e69730;
+}
+#name{
+    color: hsl(247, 60%, 49%);
+}
+#agenda{
+    color: color(from green srgb r g b / 0.9);
+}
+#intro{
+    color: color-mix(in srgb, #34c9eb 20%, rgb(136, 21, 21));
+}
