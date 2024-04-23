@@ -1,7 +1,7 @@
 ---
 name: Standup Note Template
 about: Standup Note 
-date: Meeting date
+date: 'Meeting date'
 labels: 'standup notes'
 updated: ''
 
