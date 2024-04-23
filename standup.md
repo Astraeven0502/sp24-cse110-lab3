@@ -1,7 +1,7 @@
 ---
 name: Standup Note Template
 about: Standup Note 
-date: Meeting dd/mm/yy
+date: Meeting day/month/year
 labels: 'standup notes'
 updated: ''
 
