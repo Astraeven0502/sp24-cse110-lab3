@@ -7,13 +7,19 @@
     <meta name="author" content="Po-Yu Lai">
     <link rel="icon" href="https://instructure-uploads.s3.amazonaws.com/account_131710000000000001/attachments/879/favicon.ico">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
   </head>
 <main>
   <header>
-    <h1>Meeting Minutes - How to do good in <span style="color:blue">CSE110</span></h1>
+    <div id="titleborder">
+      <h1 id="title">Meeting Minutes - How to do good in <span style="color:orange">CSE110</span></h1>
+    </div>
+
     <h2 id="date">04/16/2024</h2>
-    <div class="Title Image">
-      <img src="images/cse110title.png" alt="CSE110 Title Image">
+    <div class="container">
+      <div class="Title Image">
+          <img id="titleImage" src="images/cse110title.png" alt="CSE110 Title Image">
+      </div>
     </div>
   </header>
   <footer>
@@ -29,15 +35,16 @@
       </ul>
     </nav>
   <hr>
+    <div class="intro">
+      <section>
+        <h3 id="intro">Intro: The goal of this meeting is to discuss how to do well in CSE 110 and be a successful student.</h3>
+      </section>
+    </div>
 
     <section>
-      <h3 id="intro">Intro: The goal of this meeting is to discuss how to do well in CSE 110 and be a successful student.</h3>
-    </section>
-
-    <section>
-        <b>Present:</b> 
-        <br> <details>
-        <summary>Team 21: 
+        <b class="present">Present:</b> 
+        <br> <details class="present">
+        <summary >Team 21: 
         </summary>
           <ul id="name">
             <li>Tim</li>
@@ -63,8 +70,8 @@
     <section>
       <p><b>This Meeting:</b> <br> This meeting we would talk about how to be a good software engineer</p>
 
-        Luca propose we should: 
-        <ol>
+        <p id="p-props">Luca propose we should: </p>
+        <ol class="proposal">
           <li>Be <strong>active</strong> in the team</li>
           <li><strong>Go class</strong></li>
           <li>Be <strong>responsible</strong> for your group</li>
@@ -75,7 +82,7 @@
         <br> <details>
           <summary>Link to the book</summary>
           <a href="https://www.amazon.com/Peak-Secrets-New-Science-Expertise-ebook/dp/B011H56MKS" target="_blank">
-            <img class="picture" src="images/book.png" alt="Peak: Secrets from the New Science of Expertise by Anders Ericsson and Robert Pool" height="200"/>
+            <img class="picture" src="images/book.png" alt="Peak: Secrets from the New Science of Expertise by Anders Ericsson and Robert Pool"/>
           </a>
         </details>
 
@@ -93,7 +100,7 @@
       <h3>
         Recording of the meeting:<br>
         <video controls width="500">
-          <source src="videos/WeeklyMeetingExample.mp4" type="video/mp4">
+          <source id="video" src="videos/WeeklyMeetingExample.mp4" type="video/mp4">
         </video>
 
       </h3>
@@ -186,9 +193,24 @@
   <hr>
   <section>
     <h3>Link: </h3>
-    <form style="display: inline;" action="https://github.com/Astraeven0502" method="get" target="_blank">
-      <button>My Github Page</button>
-    </form>
+    <div class="flex-container">
+      <form id="but1" style="display: inline;" action="https://github.com/Astraeven0502" method="get" target="_blank">
+        <button id="button">My Github Page</button>
+      </form>
+      <form id="but2" style="display: inline;" action="https://github.com/Astraeven0502/sp24-cse110-lab3" method="get" target="_blank">
+        <button id="button">Lab 3 repo</button>
+      </form>
+      <form id="but3" style="display: inline;" action="https://canvas.ucsd.edu/courses/54609" method="get" target="_blank">
+        <button id="button">Course-CSE110</button>
+      </form>
+    </div>
   </section>
+
+  <div class="grid-container">
+    <div class="grid-item grid-item-1">Here is the sample text for grid1</div>
+    <div class="grid-item grid-item-2">Here is the sample text for grid2</div>
+    <div class="grid-item grid-item-3">Here is the sample text for grid3</div>
+  </div>
+  
 </main>
 </html>

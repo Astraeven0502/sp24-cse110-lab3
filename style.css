@@ -1,5 +1,11 @@
+:root{
+    --titleColor:  #1800ee;
+    --backGroundColor: #47ad17;
+}
+
 #date{
     color: rgb(184, 176, 176);
+    font-size: 1.3rem
 }
 #claim{
     color: darkgray;
@@ -12,7 +18,130 @@
 }
 #agenda{
     color: color(srgb 1 0.5 0 / 0.9);
+    text-align: center;
 }
 #intro{
     color: color-mix(in srgb, #34c9eb 90%, rgb(151, 16, 16));
+    font-size: 30px;
+    display: flex;
+}
+#title{
+    color: var(--titleColor);
+    background-color: var(--backGroundColor);
+    font-size: 50px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(65, 64, 64);
+    border-radius: 10px;
+    font-family: "Jersey 25";
+}
+#titleImage{
+    width: 500px;
+    margin: 10px 40%;
+    display: block;
+    position: relative;
+}
+.proposal{
+    font-size: 1.3rem;
+}
+#p-props{
+    text-decoration: underline red;
+    font-size: 1.3rem;
+}
+/* this is book picture */
+.picture{
+    max-width: 500px;
+    max-height: 500px;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: static;
+}
+.container{
+    padding: 20px;
+}
+.intro{
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 4em;
+    border: 5px solid #0b385f;
+    color: #a11e1e;
+    font-family: "Jersey 25";
+}
+.present{
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 4em;
+}
+#button{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    display: block;
+    position: static;
+}
+button:hover{
+    background-color: lightgrey;
+}
+button:active{
+    background-color: grey;
+}
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+p{
+    font-family: "consolas", sans-serif;
+}
+#but1{
+    background-color: #ff0808;
+}
+#but2{
+    background-color: #09df26;
+}
+#but3{
+    background-color: #fffb00;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.grid-item-1{
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(65, 64, 64);
+    background-color: #1ea150;
+    border-radius: 10px;
+}
+.grid-item-2{
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(65, 64, 64);
+    background-color: #1e4ca1;
+    border-radius: 10px;
+}
+.grid-item-3{
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(65, 64, 64);
+    background-color: #5b1ea1;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 700px) {
+    body {
+      background-color: rgb(36, 73, 121);
+    }
 }
